@@ -13,6 +13,9 @@
         "vaptcha/vaptcha-sdk": "^1.2"
     },
     "autoload": {
+        "psr-4": {
+            "Newone\\Vaptcha\\": "src"
+        },
         "files": [
             "src/helpers.php"
         ]
