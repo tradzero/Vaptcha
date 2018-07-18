@@ -7,7 +7,9 @@ return [
 
     // 根据填入的启用配置 对应添加对应的key
     'config' => [
-    ]
+    ],
+
+    'prefix' => 'api'
 
     // example default
     // 'enable ' => ['default'],
