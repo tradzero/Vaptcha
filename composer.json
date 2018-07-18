@@ -1,0 +1,27 @@
+{
+    "name": "newone/vaptcha",
+    "description": "方便使用的vaptcha 扩展包一键引入",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tradzero",
+            "email": "admin@drakframe.com"
+        }
+    ],
+    "require": {
+        "vaptcha/vaptcha-sdk": "^1.2"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Newone\\Vaptcha\\LaravelVaptchaServiceProvider"
+            ]
+        }
+    }
+}
